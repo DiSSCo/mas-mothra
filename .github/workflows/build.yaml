@@ -1,14 +1,9 @@
 name: Build Mothra
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'mothra/**'
+    branches: [ "main" ]
   pull_request:
     types: [opened, synchronize, reopened]
-    paths:
-      - 'mothra/**'
 jobs:
   build:
     runs-on: ubuntu-latest
