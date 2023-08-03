@@ -15,7 +15,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 # copy the content of the local src directory to the working directory
-COPY . ./
+COPY . /code
 
 # Set user to newly created user
 USER 1001
