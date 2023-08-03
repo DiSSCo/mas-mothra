@@ -7,7 +7,7 @@ import logging
 import os
 import json
 
-# Mothra dependencies
+# Mothra Dependencies
 from mothra.misc import AlbumentationsTransform, label_func, _generate_parser
 from skimage.io import imread
 
